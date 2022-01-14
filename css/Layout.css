@@ -1,0 +1,102 @@
+main{
+    width: 90%;
+    max-width: 1400px;
+
+    margin: auto;
+    
+}
+/* ..................... */
+.main-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+    margin-bottom: 40px;
+}
+.main-sec-left,
+.main-sec-right{
+    border: 1px solid black;
+}
+/* ..................... */
+.Logo-box{
+    margin-bottom: 40px;
+}
+.Logo-sec{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3px; 
+    
+}
+.Logo-sec-child{
+    border: 1px solid black;
+}
+/* ..................... */
+.Popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px; 
+    margin-bottom: 40px;
+}
+.Popular-collection-child{
+    border: 1px solid black;
+}
+/* ..................... */
+.others-collection{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3px; 
+    margin-bottom: 40px;
+}
+.others-collection-child{
+    border: 1px solid black;
+}
+
+/* .........Mobile............ */
+@media screen and (max-width: 500px) {
+    .main-sec{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-sec-right{
+        order: 1;
+    }
+    .main-sec-left{
+         order: 2;
+    }
+    /* ..................... */
+    .Logo-sec{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* ..................... */
+    .Popular-collection{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    /* ..................... */
+    .others-collection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+/* .........Tab............ */
+@media screen and (max-width: 1023px) and (min-width: 501px)  {
+    .main-sec{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-sec-right{
+        order: 1;
+    }
+    .main-sec-left{
+         order: 2;
+    }
+    /* ..................... */
+    .Logo-sec{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* ..................... */
+    .Popular-collection{
+         grid-template-columns: repeat(2, 1fr);
+    }
+    /* ..................... */
+    .others-collection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
