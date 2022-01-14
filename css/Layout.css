@@ -1,4 +1,4 @@
-*{
+body{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,14 +12,16 @@ main{
 /* ..................... */
 .main-sec{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr) 0.7fr;
     grid-gap: 3px;
     margin-bottom: 40px;
+    align-items: center;
 }
-.main-sec-left,
+
+/* .main-sec-left,
 .main-sec-right{
     border: 1px solid black;
-}
+} */
 /* ..................... */
 .Logo-box{
     margin-bottom: 40px;
@@ -55,28 +57,33 @@ main{
     transform: scale(1.02);
  }
 
-.Popular-collection-child img{
+.Popular-collection-child img,
+.others-collection-child img{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.fas{
-    color: orange;
-}
+
 
 
 /* ..................... */
 .others-collection{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 3px; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
     margin-bottom: 40px;
+    justify-items: center;
+    
 }
 .others-collection-child{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    transition: transform 1s;
     
+}
+.others-collection-child:hover{
+    transform: scale(1.02);
 }
 
 /* .........Mobile............ */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .main-sec{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -96,16 +103,17 @@ main{
     }
     /* ..................... */
     .others-collection{
-        grid-template-columns: repeat(2, 1fr);
-        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        
         justify-content: center;
+        align-items: center;
 
     }
 
 
 }
 /* .........Tab............ */
-@media screen and (max-width: 1023px) and (min-width: 501px)  {
+@media screen and (max-width: 1100px) and (min-width: 701px)  {
     .main-sec{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -125,6 +133,11 @@ main{
     }
     /* ..................... */
     .others-collection{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 701px){
+    .others-collection{
+        grid-template-columns: repeat(2, 1fr);
     }
 }

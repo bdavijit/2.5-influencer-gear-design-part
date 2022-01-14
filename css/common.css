@@ -1,5 +1,32 @@
 .img-responsive {
-    /* display: block; */
-    width: 100%;
+    display: block;
+    max-width: 100%;
     height: auto;
   }
+
+  .main-button{
+    /* display: inline; */
+    /* text-decoration: none; */
+    color: white;
+    background-color: #e6187c;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    box-shadow: 4px 6px 20px rgba(124, 116, 116, 0.493);
+    border: 0;
+
+    transition: transform 1s;
+  }
+  
+  .main-button:hover{
+    transform: scale(1.02);
+    box-shadow: 6px 8px 20px rgba(77, 72, 72, 0.493);
+  }
+  .fas{
+    color: orange;
+ }
+
+ .fa-long-arrow-alt-right{
+   color: white;
+ }
