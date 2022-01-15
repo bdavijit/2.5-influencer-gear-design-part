@@ -75,7 +75,7 @@ ul {
   .fa-caret-down{
      visibility: hidden;
   }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
   }

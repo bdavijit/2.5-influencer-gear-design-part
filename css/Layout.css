@@ -30,11 +30,17 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3px; 
+    margin-top: 30px;
+    margin-bottom: 18px;
+    justify-items: center;
     
 }
 /* .Logo-sec-child{
     border: 1px solid black;
 } */
+hr{
+    background-image: linear-gradient(to right, rgba(248, 248, 248, 0.383), rgba(77, 76, 74, 0.794), rgba(248, 248, 248, 0.383));
+}
 /* ..................... */
 .Popular-collection{
     display: grid;

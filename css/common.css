@@ -23,10 +23,26 @@
     transform: scale(1.02);
     box-shadow: 6px 8px 20px rgba(77, 72, 72, 0.493);
   }
-  .fas{
+ .fa-star,
+ .fa-star-half-alt{
     color: orange;
  }
 
  .fa-long-arrow-alt-right{
    color: white;
+ }
+
+
+
+ .linkBox{
+   width: 100%;
+   text-align: right;
+   margin-bottom: 10px;
+ }
+ .SeeMore{
+  color: #e6187c;
+  text-decoration: none;
+ }
+ .fa-arrow-right{
+   color: #e6187c;
  }
