@@ -1,52 +1,49 @@
-.Title-Color{
+.Title-Color {
   color: #e6187c;
-} 
-
+}
 
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-  .main-button{
-    /* display: inline; */
-    /* text-decoration: none; */
-    color: white;
-    background-color: #e6187c;
-    padding: 10px 20px;
-    border-radius: 15px;
-    font-size: 1.3em;
-    margin-top: 20px;
-    
-    border: 0;
+.main-button {
+  /* display: inline; */
+  /* text-decoration: none; */
+  color: white;
+  background-color: #e6187c;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 1.3em;
+  margin-top: 20px;
 
-    transition: transform 1s;
-  }
-  
-  .main-button:hover{
-    transform: scale(1.02);
-  }
- .fa-star,
- .fa-star-half-alt{
-    color: orange;
- }
+  border: 0;
 
- .fa-long-arrow-alt-right{
-   color: white;
- }
+  transition: transform 1s;
+}
 
+.main-button:hover {
+  transform: scale(1.02);
+}
+.fa-star,
+.fa-star-half-alt {
+  color: orange;
+}
 
+.fa-long-arrow-alt-right {
+  color: white;
+}
 
- .linkBox{
-   width: 100%;
-   text-align: right;
-   margin-bottom: 10px;
- }
- .SeeMore{
+.linkBox {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.SeeMore {
   color: #e6187c;
   text-decoration: none;
- }
- .fa-arrow-right{
-   color: #e6187c;
- }
+}
+.fa-arrow-right {
+  color: #e6187c;
+}
