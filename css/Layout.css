@@ -85,7 +85,8 @@ hr{
     
 }
 .others-collection-child img{
-    box-shadow: 0 8px 16px 0 rgba(241, 142, 246, 0.281);;
+    box-shadow: 0 8px 16px 0 rgba(241, 142, 246, 0.281);
+    border-radius: 10px ;
 }
 .others-collection-child:hover{
     transform: scale(1.02);
