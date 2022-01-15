@@ -55,7 +55,8 @@ hr{
     padding: 10px;
     margin: 5px;
     border-radius: 15px;
-    /* background-color: rgba(248, 195, 239, 0.822); */
+    
+    box-shadow: 0 8px 16px 0 rgba(241, 142, 246, 0.281);
     transition: transform 1s;
 }
 
@@ -63,8 +64,7 @@ hr{
     transform: scale(1.02);
  }
 
-.Popular-collection-child img,
-.others-collection-child img{
+.Popular-collection-child img{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -80,9 +80,12 @@ hr{
     
 }
 .others-collection-child{
-    /* border: 1px solid black; */
     transition: transform 1s;
+    /* box-shadow: 0 3px 6px 0 rgba(241, 142, 246, 0.281); */
     
+}
+.others-collection-child img{
+    box-shadow: 0 8px 16px 0 rgba(241, 142, 246, 0.281);;
 }
 .others-collection-child:hover{
     transform: scale(1.02);
